@@ -25,6 +25,8 @@ And include the gem in your apps config
   ./script/plugin install git://github.com/moiristo/deep_cloneable.git
 
 == Example
+
+<b>Note that in Rails 3.1 the core _clone_ method has been renamed to _dup_. Therefore, Rails 3.1 users should read _dup_ instead of _clone_ in the examples below.</b>
  
 === Cloning one single association
    pirate.clone :include => :mateys
